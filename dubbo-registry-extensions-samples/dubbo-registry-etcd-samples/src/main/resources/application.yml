@@ -1,0 +1,7 @@
+dubbo:
+  application:
+    name: DemoApplication
+    logger: slf4j
+    qos-enable: false
+  registry:
+    address: etcd3://localhost:2379
